@@ -1,15 +1,17 @@
 {
-	"name"       : "scottsweb/wp-instagram-widget",
-	"description": "WP Instagram widget is a no fuss WordPress widget to showcase your latest Instagram pics.",
+	"name"       : "bitpiston/wp-instagram-widget-js",
+	"description": "A client side drop-in replacement for Scott Evans's WP Instagram Widget plugin.",
 	"type"       : "wordpress-plugin",
+    "homepage"   : "https://github.com/bitpiston/wp-instagram-widget-js",
 	"license"    : "GPL-2.0+",
 	"authors"    : [
 		{
-			"name"    : "Scott Evans",
-			"homepage": "http://scott.ee/"
+			"name"    : "BitPiston Studios",
+			"homepage": "https://bitpiston.com/"
 		}
 	],
 	"require": {
+		"php": ">=7.2",
 		"composer/installers": "~1.0"
 	}
 }
